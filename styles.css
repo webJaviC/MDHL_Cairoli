@@ -5,10 +5,7 @@
     font-family: cursive;
   }
 body{
-    background-image: linear-gradient(#0f5045,#aaf1dc);
-}
-img{
-
+    background-image: url(./assets/fondo.png);
 }
 header h1 {
     font-size: 60px;
@@ -16,11 +13,11 @@ header h1 {
 h3{
     font-size: 30px;
 }
-.btn-green {
+.btn-home {
     border-radius: 3px;
     display: inline-block;
     padding: 10px 30px;
-    background-color: rgb(80, 228, 80);
+    background-color: rgb(161, 149, 33);
     color: white;
     
 }
@@ -28,7 +25,7 @@ h3{
     border-radius: 3px;
     display: inline-block;
     padding: 10px 30px;
-    background-color: rgb(7, 10, 216);
+    background-color: rgb(248, 224, 12);
     color: white;
     
 }
@@ -42,14 +39,16 @@ h3{
 }
 .up {
     
-    background-color: white;
-    color: black;
+    background-color: rgb(3, 3, 3);
+
     text-align: center;
+    display: flex;
+   justify-content: space-around;
 }
 .logo{
     display: inline-block;
    opacity: 1;
-    width: 200px;
+    width: 225px;
     height: 200px;
     display: flex;
 
@@ -63,39 +62,19 @@ align-items: stretch;
 
 }
 .box {
+   background-image: url(./assets/fondo1.jpg);
     display: inline-block;
     border-radius: 20px;
  width: 900px;
  height: 500px;
-background-color: rgb(197, 193, 188);
+
 display: flex;
-
+ 
 justify-content: space-around;
-align-items: center;
-
-}
+align-items: center;}
 .box1{
     border-radius: 5px;
-    background-color: rgb(233, 188, 188);
-    height: 200px;
-    width: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.box2{
-    border-radius: 5px;
-    background-color: rgb(188, 232, 233);
-    height: 200px;
-    width: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-.box3{
-    border-radius: 10px;
-    background-color: rgb(215, 240, 177);
+    background-color:  rgb(248, 224, 12);
     height: 200px;
     width: 200px;
     display: flex;
@@ -106,8 +85,8 @@ align-items: center;
     display: inline-block;
     border-radius: 20px;
  width: 900px;
- height: 500px;
-background-color: rgb(197, 193, 188);
+ height: 1000px;
+ background-image: url(./assets/fondo1.jpg);
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -127,8 +106,52 @@ align-items: center;
 border-radius: 20px;
  width: 920px;
  height: 650px;
-background-color: rgb(197, 193, 188);
+ background-image: url(./assets/hockey_3.jpg);
 display: flex;
 flex-direction: column;
 align-items: center;
 }
+table{
+    border: 2px solid;
+    border-radius: 5%;
+    border-spacing: 5px;
+    background-color: burlywood;
+    padding: 1%;
+    margin: 1%;
+    text-align: left;
+
+}
+th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    
+ }
+.maps{
+    height: 250;
+    width: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.mapa{
+    background-color: rgb(248, 224, 12);
+    padding: 10px;
+    border-radius: 10px;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+}
+form{
+    margin: 0 auto;
+   height: 1000px;
+   width: 375px;
+   background-color: darkslategray;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   }
+  
